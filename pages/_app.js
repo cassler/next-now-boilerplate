@@ -1,5 +1,6 @@
 import App, { Container } from 'next/app';
 import PageWrapper from '../containers/PageWrapper';
+import { GlobalStyle } from '../styled/appStyle';
 
 export default class NextApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -14,6 +15,7 @@ export default class NextApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <Container>
+        <GlobalStyle />
         <PageWrapper>
           <Component {...pageProps} />
         </PageWrapper>

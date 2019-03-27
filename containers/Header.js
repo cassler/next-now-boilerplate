@@ -8,11 +8,18 @@ const AppNav = styled.div`
     padding: 0 8px;
   }
 `;
+
 const Header = () => (
   <AppNav>
     <nav className="app-navigation">
       <Link href="/">
-        <a>Home</a>
+        <a>Home 012345</a>
+      </Link>
+      <Link href="/about">
+        <a>About</a>
+      </Link>
+      <Link href="/about">
+        <a>ds</a>
       </Link>
       <Link href="/about">
         <a>About</a>
