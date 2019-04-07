@@ -6,6 +6,7 @@ const Meta = () => (
     <meta charSet="utf-8" />
     <link rel="shortcut icon" href="/static/favicon.png" />
     <link rel="stylesheet" type="text/css" href="/static/global.css" />
+    <link rel="stylesheet" type="text/css" href="/static/fonts/calibre-font.css" />
     <title>My App Title</title>
   </Head>
 );

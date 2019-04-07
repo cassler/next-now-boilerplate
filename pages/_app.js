@@ -1,6 +1,6 @@
 import App, { Container } from 'next/app';
 import PageWrapper from '../containers/PageWrapper';
-import { GlobalStyle } from '../styled/appStyle';
+import { GlobalStyle } from '../containers/theme';
 
 export default class NextApp extends App {
   static async getInitialProps({ Component, ctx }) {
