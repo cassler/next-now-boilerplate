@@ -22,16 +22,13 @@ const Header = () => (
   <AppNav>
     <nav className="app-navigation">
       <Link href="/">
-        <a>Home 012345</a>
+        <a>Home</a>
       </Link>
       <Link href="/about">
         <a className="active">About</a>
       </Link>
-      <Link href="/about">
-        <a>ds</a>
-      </Link>
-      <Link href="/about">
-        <a>About</a>
+      <Link href="#">
+        <a>Page</a>
       </Link>
     </nav>
   </AppNav>
