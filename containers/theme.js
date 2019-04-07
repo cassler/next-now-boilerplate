@@ -8,20 +8,21 @@ export const theme = {
   bgray4: '#babdc2',
   bgray5: '#99a0ac',
   bgray6: '#717b8e',
-  bgray7: '#3c4454',
+  bgray7: '#3c5464',
   bgray8: '#293340',
   bgray9: '#282c34',
   fontFamilySystem:
-    'Calibre, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
 };
 
 export const DocumentContainer = styled.div`
-  font-family: Calibre, sans-serif;
+  
 `;
 
 export const DocumentContent = styled.div`
   > div {
     padding: 100px;
+    max-width: 35em;
   }
 `;
 
@@ -29,6 +30,8 @@ export const GlobalStyle = createGlobalStyle`
   body,html {
     font-family: ${theme.fontFamilySystem};
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: ${theme.bgray7};
   }
   h1,h2,h3,h4,h5,h6 { font-weight: 600 }
